@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the powerful academic utility modules of EWUMate: Smart Advising, Faculty Directory, Study Vault, Cover Page PDF Generator, GPA progress calculators, and task deadline management.">
+  <title>App Features | EWUMate - East West University Utility Suite</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glows">
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+    <div class="glow-3"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="siteNavbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span>EWU</span><span class="text-gradient">Mate</span>
+        <div class="logo-dot"></div>
+      </a>
+      
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html" class="active">Features</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-cta">
+        <a href="https://app.ewumate.pro.bd" class="btn btn-secondary" target="_blank">iOS PWA App</a>
+        <a href="https://play.google.com/store/apps/details?id=com.rxxeron.ewumate" class="btn btn-primary" target="_blank">Get Android App</a>
+      </div>
+      
+      <button class="menu-toggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Features Hero Section -->
+  <section class="section feature-hero">
+    <div class="container feature-hero-content">
+      <span class="section-subtitle">Core Features</span>
+      <h1>Designed for EWUians. <br>Powered by <span class="text-gradient">Simplicity</span>.</h1>
+      <p>EWUMate packs the most requested utilities for East West University students into a single, cohesive, high-performance application. Discover what makes EWUMate an essential companion.</p>
+    </div>
+  </section>
+
+  <!-- Feature Detail Grid -->
+  <section class="section" style="padding-top: 50px;">
+    <div class="container">
+      
+      <!-- 1. Smart Advising & Scheduling -->
+      <div class="feature-detail-row" id="advising">
+        <div class="feature-detail-text">
+          <span class="section-subtitle">Algorithm Powered</span>
+          <h2>Smart Advising & Permutations</h2>
+          <p>Advising is one of the most stressful periods of a university semester. EWUMate automates this entirely. Simply pick your target courses, select section preferences, and let the algorithm do the heavy lifting.</p>
+          <ul class="feature-detail-list">
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Clash Detection:</strong> The algorithm screens timing parameters to rule out overlapping classes instantly.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Section Pinning:</strong> Lock specific faculty members or times slots, and calculate combinations around them.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Side-by-Side Review:</strong> Swipe through different calendar routines with a clean grid visual.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="feature-detail-visual">
+          <!-- advising visual representation -->
+          <div style="width:100%; display:flex; flex-direction:column; gap:16px;">
+            <div style="display:flex; justify-content:space-between; border-bottom:1px solid rgba(255,255,255,0.06); padding-bottom:8px; font-size:13px; font-weight:700;">
+              <span>Routines Generated</span>
+              <span style="color:var(--primary);">4 Combos</span>
+            </div>
+            <div style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.04); border-radius:12px; padding:12px; font-size:12px; display:flex; flex-direction:column; gap:6px;">
+              <span style="font-weight:700; color:var(--primary);">MAT250 [Sec 3] • CSE350 [Sec 2]</span>
+              <span style="color:var(--text-muted);">Routine Profile: 08:30 AM - 01:20 PM (Sun, Tue)</span>
+              <div style="width:100%; height:8px; background:rgba(255,255,255,0.05); border-radius:4px; overflow:hidden; margin-top:4px;">
+                <div style="width:75%; height:100%; background:linear-gradient(90deg, var(--primary), var(--secondary)); border-radius:4px;"></div>
+              </div>
+            </div>
+            <div style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.04); border-radius:12px; padding:12px; font-size:12px; display:flex; flex-direction:column; gap:6px;">
+              <span style="font-weight:700; color:var(--secondary);">MAT250 [Sec 3] • CSE350 [Sec 3]</span>
+              <span style="color:var(--text-muted);">Routine Profile: 08:30 AM - 11:40 AM (Sun, Tue, Wed)</span>
+              <div style="width:100%; height:8px; background:rgba(255,255,255,0.05); border-radius:4px; overflow:hidden; margin-top:4px;">
+                <div style="width:55%; height:100%; background:linear-gradient(90deg, var(--primary), var(--secondary)); border-radius:4px;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Faculty Directory -->
+      <div class="feature-detail-row" id="faculty">
+        <div class="feature-detail-text">
+          <span class="section-subtitle">Speed Contacts</span>
+          <h2>Instant Faculty Directory</h2>
+          <p>Need to email your professor or find their office hours? Rather than logging onto the university portal and loading heavy tables, search EWUMate's instant directory.</p>
+          <ul class="feature-detail-list">
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Smart Search:</strong> Type names, initials (e.g., 'MMA'), departments, or designations.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>One-Tap Operations:</strong> Single tap to copy email addresses or directly dial the office extension.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Room Maps:</strong> Quickly find their office room numbers (e.g., Room 305) and scheduled consultation hours.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="feature-detail-visual">
+          <div style="width:100%; display:flex; flex-direction:column; gap:16px;">
+            <div style="background:var(--bg); border:1px solid var(--primary); border-radius:16px; padding:16px; display:flex; flex-direction:column; gap:12px; box-shadow:0 0 15px rgba(0,229,255,0.05);">
+              <div style="display:flex; justify-content:space-between; align-items:start;">
+                <div>
+                  <h4 style="font-size:16px;">Dr. Shamim H. Ripon</h4>
+                  <span style="font-size:11px; color:var(--primary); font-weight:700;">Professor, CSE Department</span>
+                </div>
+                <div style="padding:4px 8px; background:rgba(0,229,255,0.1); border-radius:6px; font-size:10px; font-weight:700; color:var(--primary);">SHR</div>
+              </div>
+              <div style="display:flex; flex-direction:column; gap:6px; font-size:12px; border-top:1px solid rgba(255,255,255,0.04); padding-top:10px; color:var(--text-muted);">
+                <span>📧 shripon@ewubd.edu</span>
+                <span>📍 Room 342 (Block C)</span>
+                <span>⏰ Consultation: Sun/Tue 10:00 AM - 12:00 PM</span>
+              </div>
+              <div style="display:flex; gap:10px; margin-top:4px;">
+                <button style="flex:1; padding:8px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.05); color:#fff; border-radius:8px; font-size:11px; cursor:pointer; font-weight:600;">Copy Email</button>
+                <button style="flex:1; padding:8px; background:rgba(0,229,255,0.08); border:1px solid rgba(0,229,255,0.15); color:var(--primary); border-radius:8px; font-size:11px; cursor:pointer; font-weight:600;">View Profile</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Study Vault -->
+      <div class="feature-detail-row" id="vault">
+        <div class="feature-detail-text">
+          <span class="section-subtitle">Resource Locker</span>
+          <h2>Collaborative Study Vault</h2>
+          <p>Access notes, slides, books, past papers, and syllabus updates in seconds. The Study Vault organizes study materials department-by-department and course-by-course.</p>
+          <ul class="feature-detail-list">
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Peer Sourced:</strong> All documents are uploaded and peer-rated by fellow university students.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Structured Organization:</strong> Search folders structured specifically around current EWU syllabi.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Direct Download:</strong> Download materials straight to your device or load them inside the built-in viewer.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="feature-detail-visual">
+          <div style="width:100%; display:grid; grid-template-columns:repeat(2, 1fr); gap:12px;">
+            <div style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.04); border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:8px;">
+              <span style="font-size:24px;">📁</span>
+              <span style="font-weight:700; font-size:13px;">CSE 325 Materials</span>
+              <span style="font-size:11px; color:var(--text-muted);">18 Files • Slide decks, labs</span>
+            </div>
+            <div style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.04); border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:8px;">
+              <span style="font-size:24px;">📁</span>
+              <span style="font-weight:700; font-size:13px;">CSE 350 Mid Prep</span>
+              <span style="font-size:11px; color:var(--text-muted);">7 Files • Questions, notes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Progress Tracker -->
+      <div class="feature-detail-row" id="progress">
+        <div class="feature-detail-text">
+          <span class="section-subtitle">Academic Intelligence</span>
+          <h2>GPA & Degree Credit Tracker</h2>
+          <p>Know exactly where you stand. Our interactive GPA and credit tracking system breaks down your academic accomplishments and helps you plan for future semesters.</p>
+          <ul class="feature-detail-list">
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>CGPA Calculator:</strong> Input grades from your portal, and compute CGPA automatically.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Credit Progress:</strong> A visual completion arc shows what percentage of your degree requirements are done.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Target Forecaster:</strong> Type in your goal CGPA, and calculate the exact grades needed in upcoming credits.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="feature-detail-visual">
+          <div style="width:100%; display:flex; justify-content:space-around; align-items:center;">
+            <!-- Circular Credit Meter -->
+            <div style="position:relative; width:120px; height:120px; border-radius:50%; background:conic-gradient(var(--primary) 270deg, rgba(255,255,255,0.05) 0deg); display:flex; align-items:center; justify-content:center; box-shadow:0 0 15px rgba(0,229,255,0.1);">
+              <div style="position:absolute; width:96px; height:96px; border-radius:50%; background:var(--bg); display:flex; flex-direction:column; align-items:center; justify-content:center;">
+                <span style="font-size:20px; font-weight:800; color:var(--text);">75%</span>
+                <span style="font-size:9px; color:var(--text-muted);">90/120 Credits</span>
+              </div>
+            </div>
+            
+            <div style="display:flex; flex-direction:column; gap:10px;">
+              <div style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.04); padding:10px 16px; border-radius:10px;">
+                <span style="font-size:10px; color:var(--text-muted); display:block;">Current CGPA</span>
+                <span style="font-size:22px; font-weight:800; color:var(--primary);">3.82</span>
+              </div>
+              <div style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.04); padding:10px 16px; border-radius:10px;">
+                <span style="font-size:10px; color:var(--text-muted); display:block;">Target for 3.85</span>
+                <span style="font-size:14px; font-weight:700; color:var(--secondary);">Requires 3.90+ next</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Cover Page Generator -->
+      <div class="feature-detail-row" id="coverpage">
+        <div class="feature-detail-text">
+          <span class="section-subtitle">No Formatting Hassle</span>
+          <h2>Cover Page Generator</h2>
+          <p>Formatting assignment cover pages using Word templates is a thing of the past. EWUMate generates official EWU format cover pages in high-resolution PDF format with standard layouts.</p>
+          <ul class="feature-detail-list">
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Pre-structured Layouts:</strong> Strictly matching the official East West University cover page layout guidelines.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Smart Storage:</strong> Saves your student ID, section, and department details so you only type them once.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span><strong>Instant Sharing:</strong> Generate and export directly to Google Drive, WhatsApp, or send straight to a local printer.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="feature-detail-visual">
+          <div style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.05); padding:16px; border-radius:12px; width:220px; display:flex; flex-direction:column; gap:12px; align-items:center;">
+            <div style="width:100%; height:4px; background:rgba(255,255,255,0.08); border-radius:2px;"></div>
+            <span style="font-size:24px; margin:10px 0;">📄</span>
+            <span style="font-weight:700; font-size:11px; text-align:center;">EAST WEST UNIVERSITY</span>
+            <div style="width:80%; height:1px; background:rgba(255,255,255,0.08);"></div>
+            <div style="font-size:9px; text-align:center; color:var(--text-muted); display:flex; flex-direction:column; gap:4px; width:100%;">
+              <span>Assignment #1</span>
+              <span>Course: CSE 325</span>
+              <span>ID: 2023-1-60-XXX</span>
+            </div>
+            <button style="width:100%; border:none; background:linear-gradient(135deg, var(--primary), var(--secondary)); color:#000; font-weight:700; padding:6px; border-radius:6px; font-size:10px; cursor:pointer;">Generate PDF</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Downloads CTA Section -->
+  <section class="section stats-section" style="padding-bottom: 120px;">
+    <div class="container">
+      <div class="cta-banner">
+        <div class="cta-content">
+          <h2 class="cta-title">Start Navigating <span class="text-gradient">EWU Easily</span></h2>
+          <p class="cta-desc">Download EWUMate on your Android device from the Play Store, or access the web app wrapper on your iOS device.</p>
+          <div class="cta-buttons">
+            <a href="https://play.google.com/store/apps/details?id=com.rxxeron.ewumate" class="btn btn-primary" target="_blank">Android App Store</a>
+            <a href="https://app.ewumate.pro.bd" class="btn btn-secondary" target="_blank">iOS PWA Launcher</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span>EWU</span><span class="text-gradient">Mate</span>
+            <div class="logo-dot"></div>
+          </a>
+          <p>The ultimate unofficial utility and companion app custom-designed for the students of East West University (EWU).</p>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Sitemap</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">App Features</a></li>
+            <li><a href="support.html">FAQ & Support</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="app-ads.txt" target="_blank">app-ads.txt</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Downloads</h4>
+          <ul class="footer-links">
+            <li><a href="https://play.google.com/store/apps/details?id=com.rxxeron.ewumate" target="_blank">Android (Play Store)</a></li>
+            <li><a href="https://app.ewumate.pro.bd" target="_blank">iOS (Web App Wrapper)</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          <span>&copy; 2026 EWUMate. All rights reserved.</span>
+        </div>
+        <div class="footer-copy" style="font-size: 11px; color: var(--text-muted);">
+          <span>EWUMate is an independent, unofficial utility and is not affiliated, associated, or endorsed by East West University.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

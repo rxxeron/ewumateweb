@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get help with EWUMate. Read our FAQ regarding advising, iOS configuration, Study Vault sharing, and contact the development team directly.">
+  <title>FAQ & Support | EWUMate - East West University Companion</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glows">
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+    <div class="glow-3"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="siteNavbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span>EWU</span><span class="text-gradient">Mate</span>
+        <div class="logo-dot"></div>
+      </a>
+      
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="support.html" class="active">Support</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-cta">
+        <a href="https://app.ewumate.pro.bd" class="btn btn-secondary" target="_blank">iOS PWA App</a>
+        <a href="https://play.google.com/store/apps/details?id=com.rxxeron.ewumate" class="btn btn-primary" target="_blank">Get Android App</a>
+      </div>
+      
+      <button class="menu-toggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Support Hero Section -->
+  <section class="section feature-hero">
+    <div class="container feature-hero-content">
+      <span class="section-subtitle">Help Center</span>
+      <h1>How Can We <span class="text-gradient">Help You</span>?</h1>
+      <p>Have questions about installing EWUMate on iOS, configuring the advising builder, or suggesting a new academic tool? Read our FAQs below or contact us directly.</p>
+    </div>
+  </section>
+
+  <!-- FAQs Accordion Section -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Common Questions</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      
+      <div class="faq-list">
+        <!-- 1 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is EWUMate affiliated with East West University (EWU)?</span>
+            <div class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              No. EWUMate is a completely independent, unofficial utility suite. It is developed and maintained by students for students to solve common administrative scheduling and academic resource access difficulties. It is not affiliated, endorsed, supported, or sponsored by East West University.
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How does the Advising Optimizer algorithm work?</span>
+            <div class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Our backend parsing system extracts section timetables published by the university for the upcoming semester. When you pick your desired courses in the advising builder, our offline-capable algorithm processes all mathematical combinations. It filters out sections that clash in time and displays the clean, clash-free permutations.
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How do I configure EWUMate on an Apple (iOS) device?</span>
+            <div class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              To support iOS users without App Store developer fees, EWUMate is built as a Progressive Web App (PWA). Simply open <a href="https://app.ewumate.pro.bd" target="_blank" style="color: var(--primary); text-decoration: underline;">https://app.ewumate.pro.bd</a> in Safari on your iPhone, click the <strong>Share</strong> button at the bottom of Safari, and select <strong>Add to Home Screen</strong>. It will look and run exactly like a native app.
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is my personal or academic data secure?</span>
+            <div class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Yes, entirely. EWUMate runs locally on your device. We do not store your credentials, CGPA records, task list, or customized routines on our servers. Any sync capabilities (like Study Vault uploads) are done explicitly with your approval.
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How can I contribute files to the Study Vault?</span>
+            <div class="faq-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              You can upload files directly through the Study Vault module in the app. Pick your department, input the course code, select the file type (Slide, Lecture Notes, Past Exam), and upload. Once approved by our student moderators, it will become available to all EWU users.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact" style="padding-top: 50px; padding-bottom: 120px;">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <div>
+          <span class="section-subtitle">Reach Out</span>
+          <h2 style="font-size: 32px; margin-top: 10px;">Contact the Developers</h2>
+          <p style="margin-top: 10px;">If you have found wrong office hours, incorrect class times, database bugs, or want to contribute to the code repository, let us know.</p>
+        </div>
+        
+        <div class="glass-panel contact-card">
+          <div class="contact-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div class="contact-card-details">
+            <h4>Support Email</h4>
+            <p>rhrakibulhasan279@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="glass-panel contact-card">
+          <div class="contact-card-icon" style="background: rgba(0, 229, 255, 0.08); border-color: rgba(0, 229, 255, 0.15); color: var(--primary);">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </div>
+          <div class="contact-card-details">
+            <h4>Codebase Repository</h4>
+            <p>github.com/rxxeron/ewumateweb</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="glass-panel contact-form">
+        <h3 class="form-title">Send a Message</h3>
+        <p style="font-size: 13px; margin-bottom: 20px;">Use this form to submit bugs or content corrections directly to our developers.</p>
+        
+        <form id="supportContactForm">
+          <div class="form-group">
+            <label for="formName">Full Name *</label>
+            <input type="text" id="formName" class="form-control" placeholder="Jane Doe" required>
+          </div>
+          
+          <div class="form-group" style="margin-top: 15px;">
+            <label for="formEmail">University Email Address *</label>
+            <input type="email" id="formEmail" class="form-control" placeholder="2023-1-60-xxx@std.ewubd.edu" required>
+          </div>
+          
+          <div class="form-group" style="margin-top: 15px;">
+            <label for="formSubject">Subject</label>
+            <select id="formSubject" class="form-control">
+              <option value="Bug Report">App Bug Report</option>
+              <option value="Data Correction">Database/Faculty Detail Correction</option>
+              <option value="Feature Request">Feature Suggestion</option>
+              <option value="Other">Other Inquiry</option>
+            </select>
+          </div>
+          
+          <div class="form-group" style="margin-top: 15px;">
+            <label for="formMessage">Message Detail *</label>
+            <textarea id="formMessage" class="form-control" placeholder="Describe the issue or feature proposal in detail..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 25px;">Send Support Ticket</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span>EWU</span><span class="text-gradient">Mate</span>
+            <div class="logo-dot"></div>
+          </a>
+          <p>The ultimate unofficial utility and companion app custom-designed for the students of East West University (EWU).</p>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Sitemap</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">App Features</a></li>
+            <li><a href="support.html">FAQ & Support</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="app-ads.txt" target="_blank">app-ads.txt</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Downloads</h4>
+          <ul class="footer-links">
+            <li><a href="https://play.google.com/store/apps/details?id=com.rxxeron.ewumate" target="_blank">Android (Play Store)</a></li>
+            <li><a href="https://app.ewumate.pro.bd" target="_blank">iOS (Web App Wrapper)</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          <span>&copy; 2026 EWUMate. All rights reserved.</span>
+        </div>
+        <div class="footer-copy" style="font-size: 11px; color: var(--text-muted);">
+          <span>EWUMate is an independent, unofficial utility and is not affiliated, associated, or endorsed by East West University.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
